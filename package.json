@@ -1,35 +1,82 @@
 {
-  "name": "grunt-contrib-requirejs",
-  "description": "Optimize RequireJS projects using r.js",
-  "version": "1.0.0",
-  "author": {
-    "name": "Grunt Team",
-    "url": "http://gruntjs.com/"
-  },
-  "repository": "gruntjs/grunt-contrib-requirejs",
+  "name": "@prantlf/grunt-contrib-requirejs",
+  "description": "Optimize RequireJS projects using r.js. Forked to use a custom r.js module.",
+  "version": "1.1.0",
+  "author": "Ferdinand Prantl <prantlf@gmail.com>",
+  "contributors": [
+    "Grunt Team (http://gruntjs.com/)"
+  ],
   "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/prantlf/grunt-contrib-requirejs/blob/master/package/LICENSE"
+    }
+  ],
+  "homepage": "https://github.com/prantlf/grunt-contrib-requirejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prantlf/grunt-contrib-requirejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prantlf/grunt-contrib-requirejs/issues"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
   "main": "tasks/requirejs.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "coverage": "c8 grunt test"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      [
+        "@semantic-release/github",
+        {
+          "failComment": false
+        }
+      ],
+      "@semantic-release/git"
+    ]
+  },
+  "c8": {
+    "include": "tasks",
+    "check-coverage": true,
+    "branches": 100,
+    "lines": 100,
+    "functions": 100,
+    "statements": 100,
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
   },
   "dependencies": {
-    "requirejs": "^2.2.0"
+    "requirejs": "^2.3.6"
   },
   "devDependencies": {
-    "grunt": "^1.0.0",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-internal": "^1.1.0",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-nodeunit": "^1.0.0"
+    "c8": "^7.11.0",
+    "grunt": "^1.4.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-internal": "^7.0.0",
+    "grunt-contrib-jshint": "^3.1.1",
+    "grunt-contrib-nodeunit": "^4.0.0"
+  },
+  "optionalDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "requirejs",
+    "requirejs-optimizer"
   ],
   "files": [
     "tasks"
-  ],
-  "appveyor_id": "ithfwohrb4u06rx3"
+  ]
 }
