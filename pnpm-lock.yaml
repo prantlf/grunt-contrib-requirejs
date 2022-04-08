@@ -7,7 +7,7 @@ specifiers:
   grunt: ^1.4.1
   grunt-contrib-clean: ^2.0.0
   grunt-contrib-internal: ^7.0.0
-  grunt-contrib-jshint: ^3.1.1
+  grunt-contrib-jshint: ^3.2.0
   grunt-contrib-nodeunit: ^4.0.0
   requirejs: ^2.3.6
 
@@ -23,7 +23,7 @@ devDependencies:
   grunt: 1.4.1
   grunt-contrib-clean: 2.0.0_grunt@1.4.1
   grunt-contrib-internal: 7.0.0_grunt@1.4.1
-  grunt-contrib-jshint: 3.1.1
+  grunt-contrib-jshint: 3.2.0
   grunt-contrib-nodeunit: 4.0.0
 
 packages:
@@ -1127,13 +1127,13 @@ packages:
       read-package-json: 3.0.1
     dev: true
 
-  /grunt-contrib-jshint/3.1.1:
-    resolution: {integrity: sha512-EwMY6L91FqTcMlZTVoDeeq/EZL+7MoFyo1rxIea9sxyv73geVggeE37jcUhNbu5hLbxHE82CGIUqitHuR2/q+g==}
+  /grunt-contrib-jshint/3.2.0:
+    resolution: {integrity: sha512-pcXWCSZWfoMSvcV4BwH21TUtLtcX0Ms8IGuOPIcLeXK3fud9KclY7iqMKY94jFx8TxZzh028YYtpR+io8DiEaQ==}
     engines: {node: '>=10'}
     dependencies:
       hooker: 0.2.3
       chalk: 4.1.2
-      jshint: 2.13.2
+      jshint: 2.13.4
     dev: true
 
   /grunt-contrib-nodeunit/4.0.0:
@@ -1523,8 +1523,8 @@ packages:
     hasBin: true
     dev: true
 
-  /jshint/2.13.2:
-    resolution: {integrity: sha512-xt9lIEqJ0B/48GwIuFA4sw3PPQvmFo/fVCe9Yim9oU2UdX437lnkrBrHEHF/R0HS64WgLFXUvSxrHb0UOrYhAA==}
+  /jshint/2.13.4:
+    resolution: {integrity: sha512-HO3bosL84b2qWqI0q+kpT/OpRJwo0R4ivgmxaO848+bo10rc50SkPnrtwSFXttW0ym4np8jbJvLwk5NziB7jIw==}
     hasBin: true
     dependencies:
       cli: 1.0.1
@@ -1533,7 +1533,6 @@ packages:
       htmlparser2: 3.8.3
       lodash: 4.17.21
       minimatch: 3.0.4
-      shelljs: 0.3.0
       strip-json-comments: 1.0.4
     dev: true
 
@@ -2209,12 +2208,6 @@ packages:
   /shebang-regex/3.0.0:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
-
-  /shelljs/0.3.0:
-    resolution: {integrity: sha1-NZbmMHp4FUT1kfN9phg2DzHbV7E=}
-    engines: {node: '>=0.8.0'}
-    hasBin: true
-    dev: true
 
   /signal-exit/3.0.6:
     resolution: {integrity: sha512-sDl4qMFpijcGw22U5w63KmD3cZJfBuFlVNbVMKje2keoKML7X2UzWbc4XrmEbDwg0NXJc3yv4/ox7b+JWb57kQ==}
