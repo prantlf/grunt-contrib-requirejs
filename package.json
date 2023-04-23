@@ -59,7 +59,7 @@
     ]
   },
   "dependencies": {
-    "requirejs": "^2.3.6"
+    "@prantlf/requirejs": "^3.0.1"
   },
   "devDependencies": {
     "c8": "^7.13.0",

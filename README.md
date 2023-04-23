@@ -48,7 +48,7 @@ The `error` option is an optional hook to receive the `r.js` error. The first ar
 
 ## requirejs
 
-The `requirejs` option is an object exported from a module compatible with `r.js`. You can pass an alternative optimizer version to the task by this option. The module `requirejs` is used by `require('requirejs')` by default.
+The `requirejs` option is an object exported from a module compatible with `r.js`. You can pass an alternative optimizer version to the task by this option. The module `requirejs` is initialised by `require('@prantlf/requirejs')` by default.
 
 ## logLevel
 

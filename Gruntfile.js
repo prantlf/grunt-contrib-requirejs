@@ -59,7 +59,7 @@ module.exports = function(grunt) {
       },
       'custom-requirejs': {
         options: {
-          requirejs: require('requirejs'),
+          requirejs: require('@prantlf/requirejs'),
           baseUrl: 'test/fixtures',
           name: 'project',
           out: 'tmp/custom-requirejs.js'

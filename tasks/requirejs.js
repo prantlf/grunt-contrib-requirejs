@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 
   function initializeRequire(requirejs) {
     if (!requirejs) {
-      requirejs = require('requirejs');
+      requirejs = require('@prantlf/requirejs');
     }
 
     // TODO: extend this to send build log to grunt.log.ok / grunt.log.error
