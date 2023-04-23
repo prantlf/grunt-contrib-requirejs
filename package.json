@@ -62,15 +62,15 @@
     "requirejs": "^2.3.6"
   },
   "devDependencies": {
-    "c8": "^7.11.0",
-    "grunt": "^1.4.1",
-    "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-internal": "^7.0.0",
+    "c8": "^7.13.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-internal": "^8.0.2",
     "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-nodeunit": "^4.0.0"
+    "grunt-contrib-nodeunit": "^5.0.0"
   },
   "optionalDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1"
   },
   "keywords": [
