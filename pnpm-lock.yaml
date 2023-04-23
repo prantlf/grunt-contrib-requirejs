@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@prantlf/requirejs':
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.0.2
+    version: 3.0.2
 
 optionalDependencies:
   '@semantic-release/changelog':
@@ -475,8 +475,8 @@ packages:
     dev: false
     optional: true
 
-  /@prantlf/requirejs@3.0.1:
-    resolution: {integrity: sha512-pP+2tYyRE7iF7/UoLV6BE24OxPbP773c3Hb3jOrUxKdl7urFf1qf5M+hHj59X4wBG/xmkYPnGHila/qZU8l8sw==}
+  /@prantlf/requirejs@3.0.2:
+    resolution: {integrity: sha512-Woi8VtmRfwaZU6C0HIvbasph9f4g3VZZH8w6kXvH/f1dPZnVT5K2gfQkA2tNr117yiAO1tLXjC0lwai/EGZLgA==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: false
