@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/prantlf/grunt-contrib-requirejs/compare/v1.1.0...v2.0.0) (2023-04-23)
+
+
+### Features
+
+* Replace requirejs with @prantlf/requirejs ([8445751](https://github.com/prantlf/grunt-contrib-requirejs/commit/844575154d4191a9e417572b972f2ab2d5a57f78))
+
+
+### BREAKING CHANGES
+
+* The package @prantlf/requirejs with a modern JvaScript parser and source map support is used by default now. Although it supports all features of requirejs and the existing scenarios should not be broken, the parser replacement might have some side-effects. You should test that everything works after the upgrade.
+
 ## [1.1.0](https://github.com/prantlf/grunt-contrib-requirejs/compare/v1.0.0...v1.1.0) (2022-01-03)
 
 ### Features
