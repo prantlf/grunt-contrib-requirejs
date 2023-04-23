@@ -136,25 +136,9 @@ requirejs: {
 }
 ```
 
-## Release History
-
- * 2022-01-01   v1.1.0   Allow using a custom build of `r.js`, suppressing failures and enabling verbose logging.
- * 2016-03-04   v1.0.0   Update usage example to show a working usage. Remove peerDep and point to main task. rjs-build-analysis returns an object not an array. Made clear that usage of almond is not required. Added error option to handle r.js errors.
- * 2014-04-25   v0.4.4   Reduce logging verbosity unless `--verbose` flag is used.
- * 2014-02-26   v0.4.3   Remove "Gruntfile.js" as package.json main.
- * 2014-02-26   v0.4.2   Catch exceptions in `done`.
- * 2013-05-16   v0.4.1   Add `done` option.
- * 2013-02-15   v0.4.0   First official release for Grunt 0.4.0.
- * 2013-01-23   v0.4.0rc7   Updating to work with grunt v0.4.0rc7.
- * 2013-01-09   v0.4.0rc5   Updating to work with grunt v0.4.0rc5.
- * 2012-10-12   v0.3.3   Rename grunt-contrib-lib dep to grunt-lib-contrib.
- * 2012-10-09   v0.3.1   Bump to RequireJS 2.1.x. Run optimizer async.
- * 2012-09-23   v0.3.0   Options no longer accepted from global config key.
- * 2012-09-10   v0.2.0   Refactored from grunt-contrib into individual repo.
-
 ## License
 
 Copyright (c) 2012-2016 Tyler Kellen, contributors<br>
-Copyright (c) 2021-2022 Ferdinand Prantl
+Copyright (c) 2021-2023 Ferdinand Prantl
 
 Licensed under the MIT license.
