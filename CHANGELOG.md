@@ -1,5 +1,11 @@
 # Changes
 
+## [2.1.0](https://github.com/prantlf/grunt-contrib-requirejs/compare/v2.0.1...v2.1.0) (2026-05-03)
+
+### Features
+
+* Upgrade dependencies ([1f548e4](https://github.com/prantlf/grunt-contrib-requirejs/commit/1f548e45e3154a6f5cea5c50247d53ff730f21d9))
+
 ## [2.0.1](https://github.com/prantlf/grunt-contrib-requirejs/compare/v2.0.0...v2.0.1) (2023-04-23)
 
 ### Bug Fixes
