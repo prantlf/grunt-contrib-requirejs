@@ -1,17 +1,16 @@
-## [2.0.1](https://github.com/prantlf/grunt-contrib-requirejs/compare/v2.0.0...v2.0.1) (2023-04-23)
+# Changes
 
+## [2.0.1](https://github.com/prantlf/grunt-contrib-requirejs/compare/v2.0.0...v2.0.1) (2023-04-23)
 
 ### Bug Fixes
 
 * Upgrade dependencies ([35855ee](https://github.com/prantlf/grunt-contrib-requirejs/commit/35855ee3a981125c2eb871d1017129d5221f9158))
 
-# [2.0.0](https://github.com/prantlf/grunt-contrib-requirejs/compare/v1.1.0...v2.0.0) (2023-04-23)
-
+## [2.0.0](https://github.com/prantlf/grunt-contrib-requirejs/compare/v1.1.0...v2.0.0) (2023-04-23)
 
 ### Features
 
 * Replace requirejs with @prantlf/requirejs ([8445751](https://github.com/prantlf/grunt-contrib-requirejs/commit/844575154d4191a9e417572b972f2ab2d5a57f78))
-
 
 ### BREAKING CHANGES
 
@@ -24,7 +23,6 @@
 * Do not append the .js extension to module names relative to the current path ([8f93a0e](https://github.com/prantlf/requirejs-babel/commit/8f93a0e60f2eb96cd16aafd4a46de90a409f0b1b))
 * Do not transpile source files already in the AMD format ([919a891](https://github.com/prantlf/requirejs-babel/commit/919a89195d7019cfddebc18b4580a3f3b71a0a16))
 * Propagate errors from loading missing files ([d69c42d](https://github.com/prantlf/requirejs-babel/commit/d69c42d2d45e0c3b8e1441485bd2b5669f0a84da))
-
 
 This is the first release after forking the project.
 

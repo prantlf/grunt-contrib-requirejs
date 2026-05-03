@@ -3,7 +3,7 @@
  * https://github.com/prantlf/grunt-contrib-requirejs#readme
  *
  * Copyright (c) 2012-2016 Tyler Kellen, contributors
- * Copyright (c) 2021-2022 Ferdinand Prantl
+ * Copyright (c) 2021-2026 Ferdinand Prantl
  * Licensed under the MIT license.
  */
 

@@ -1,9 +1,5 @@
 # @prantlf/grunt-contrib-requirejs
 
-[![Latest version](https://img.shields.io/npm/v/@prantlf/grunt-contrib-requirejs)
- ![Dependency status](https://img.shields.io/librariesio/release/npm/@prantlf/grunt-contrib-requirejs)
-](https://www.npmjs.com/package/@prantlf/grunt-contrib-requirejs)
-
 > Optimize RequireJS projects using r.js. Forked to use a custom r.js module.
 
 Changes made in this fork:
@@ -139,6 +135,6 @@ requirejs: {
 ## License
 
 Copyright (c) 2012-2016 Tyler Kellen, contributors<br>
-Copyright (c) 2021-2023 Ferdinand Prantl
+Copyright (c) 2021-2026 Ferdinand Prantl
 
 Licensed under the MIT license.
