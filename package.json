@@ -44,19 +44,15 @@
     ]
   },
   "dependencies": {
-    "@prantlf/requirejs": "^3.4.0"
+    "@prantlf/requirejs": "^3.5.0"
   },
   "devDependencies": {
-    "c8": "^11.0.0",
-    "grunt": "^1.6.2",
+    "c8": "^12.0.0",
+    "grunt": "^1.6.3",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-internal": "^9.1.0",
     "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-nodeunit": "^5.0.0"
-  },
-  "optionalDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1"
   },
   "keywords": [
     "gruntplugin",
