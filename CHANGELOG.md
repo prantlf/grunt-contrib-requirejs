@@ -1,5 +1,11 @@
 # Changes
 
+## [2.2.0](https://github.com/prantlf/grunt-contrib-requirejs/compare/v2.1.0...v2.2.0) (2026-10-30)
+
+### Features
+
+* Upgrade default r.js ([8dd1705](https://github.com/prantlf/grunt-contrib-requirejs/commit/8dd17054a186e813b1b2c2cb13969d56802f26bc))
+
 ## [2.1.0](https://github.com/prantlf/grunt-contrib-requirejs/compare/v2.0.1...v2.1.0) (2026-05-03)
 
 ### Features
